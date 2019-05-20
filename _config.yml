@@ -16,8 +16,8 @@
 title: Deadjournal
 description: >- # this means to ignore newlines until "baseurl:"
   The old Livejournal blog of Michael James, only not on Livejournal.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/deadjournal" # the subpath of your site, e.g. /blog
+url: "https://alephnaughtpix.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: alephnaught
 github_username:  alephnaughtpix
 
