@@ -41,3 +41,9 @@ exclude:
    - vendor/ruby/
    - LJSource/
 
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
