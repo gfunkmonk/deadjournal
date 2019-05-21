@@ -1,7 +1,7 @@
 <div class="PageNavigation row">
 	<div class="col">
   {% if page.previous.url %}
-    <div class="prev text-left"><a href="{{page.previous.url}}">&laquo; {{page.previous.title | truncate: 50}}</a></div>
+    <div class="prev text-left"><a href="{{page.previous.url | relative_url }}">&laquo; {{page.previous.title | truncate: 50}}</a></div>
   {% endif %}
   	</div>
   	<div class="col">
@@ -9,7 +9,7 @@
   	</div>
   	<div class="col">
   {% if page.next.url %}
-    <div class="next text-right"><a href="{{page.next.url}}">{{page.next.title | truncate: 50}} &raquo;</a></div>
+    <div class="next text-right"><a href="{{page.next.url | relative_url }}">{{page.next.title | truncate: 50}} &raquo;</a></div>
   {% endif %}
   	</div>
 </div>
