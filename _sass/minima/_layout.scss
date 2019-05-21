@@ -23,18 +23,12 @@
     color: $grey-color-dark;
   }
 }
-.site-title-icon {
-	float:left;
-	width: 50px;
-	height: 50px;
-	margin-right:10px;
-}
 
-.site-nav {
+.site-nav-old {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
 
-  .nav-trigger {
+  .nav-trigger-old {
       display: none;
   }
 
@@ -42,7 +36,7 @@
     display: none;
   }
 
-  .page-link {
+  .page-link-old {
     color: $text-color;
     line-height: $base-line-height;
 
@@ -184,26 +178,6 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
-}
-
-.commentary, .question {
-	font-style: italic;
-	margin: {
-		left: 1em;
-	    bottom: 1em;
-	}
-	background-color: $grey-color-light;
-	padding: 0.5em;
-}
-
-.question {
-	background-color: $light-blue;
-	.title {
-		font: {
-			weight: bold;
-			style: normal;
-		}
-	}
 }
 
 .page-heading {

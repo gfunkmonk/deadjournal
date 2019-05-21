@@ -12,4 +12,6 @@ now that it is hosted on Russian servers. So it also applied to my blog.
 
 Furthermore, and even more personally, in 2013, Russia [passed a law](https://en.wikipedia.org/wiki/Russian_gay_propaganda_law) against what it called the distribution of "propaganda of non-traditional sexual relationships" and "distorted ideas about the equal social value of traditional and non-traditional sexual relationships.". This also applies to my blog, as some of the content is unashamedly queer.
 
-This blog is being hosted on GitHub Pages, using [jekyll](https://github.com/jekyll). 
+This blog is being hosted on GitHub Pages, using [jekyll](https://github.com/jekyll). My
+old Livejournal posts (2006-2011) were extracted from my LJ account using [LJDump](https://hewgill.com/ljdump/).
+

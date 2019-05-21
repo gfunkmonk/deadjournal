@@ -1,0 +1,33 @@
+
+$light-blue: #aaaaff;
+	
+.site-title-icon {
+	float:left;
+	width: 50px;
+	height: 50px;
+	margin-right:10px;
+}
+
+.commentary, .question {
+	font-style: italic;
+	margin: {
+		left: 1em;
+	    bottom: 1em;
+	}
+	background-color: $grey-color-light;
+	padding: 0.5em;
+}
+
+.question {
+	background-color: $light-blue;
+	.title {
+		font: {
+			weight: bold;
+			style: normal;
+		}
+	}
+}
+
+.svg-icon {
+	width: 24px;
+}
