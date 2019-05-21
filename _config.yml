@@ -39,7 +39,8 @@ exclude:
    - vendor/cache/
    - vendor/gems/
    - vendor/ruby/
-   - LJSource/
+   - src/
+   - runserver_dev.ps1
 
 defaults:
   - scope:
