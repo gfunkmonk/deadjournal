@@ -38,7 +38,7 @@ It was also just a few years after a bitter public debate in my native Scotland 
 removal of a law (Section 28) not unlike the one Russia had passed in 2013. In the first couple of years after 
 the repeal of Section 28, there was nothing legally to stop me being openly queer, but it still felt like a
 risk. So it was tremendously liberating to be able to be open and be myself on a blog, and not having the sky 
-falling down. When I look back at the posts now, it was *that* queer in the grand scheme of things, but it was more so 
+falling down. When I look back at the posts now, it wasn't *that* queer in the grand scheme of things, but it was more so 
 than I remember. I was just being myself.
 
 In other words, me and my blog from 2006 was now breaking the law in Russia from 2016 onwards by just existing. 
@@ -47,7 +47,7 @@ It doesn't matter that it would be lucky to have an audience of 30, never mind 3
 the law is wrong, and my posts suddenly came under it's jurisdiction some point in 2016 without my knowledge. It was 
 time to take back control. 
 
-So, I was thinking about exporting it somewhere, when a friend of mine mentioned [jekyll](https://github.com/jekyll) and
+So, I was thinking about exporting it somewhere, when a friend of mine mentioned [Jekyll](https://github.com/jekyll) and
 using [GitHub Pages](https://pages.github.com/) for his project. As a superqueer supergeek, I just *had* to have a look into it, and lo! A project was born.
 All I needed was a way to import the old posts from LiveJournal, and I found that in [LJDump](https://hewgill.com/ljdump/). The whole
 thing took a few hours in total to convert the import to Jekyll and hosted on GitHub pages. Then I couldn't resist tweaking it...
