@@ -47,5 +47,14 @@ It doesn't matter that it would be lucky to have an audience of 30, never mind 3
 the law is wrong, and my posts suddenly came under it's jurisdiction some point in 2016 without my knowledge. It was 
 time to take back control. 
 
-This blog is being hosted on GitHub Pages, using [jekyll](https://github.com/jekyll). My
-old Livejournal posts (2006-2011) were extracted from my LJ account using [LJDump](https://hewgill.com/ljdump/).
+So, I was thinking about exporting it somewhere, when a friend of mine mentioned [jekyll](https://github.com/jekyll) and
+using [GitHub Pages](https://pages.github.com/) for his project. As a superqueer supergeek, I just *had* to have a look into it, and lo! A project was born.
+All I needed was a way to import the old posts from LiveJournal, and I found that in [LJDump](https://hewgill.com/ljdump/). The whole
+thing took a few hours in total to convert the import to Jekyll and hosted on GitHub pages. Then I couldn't resist tweaking it...
+And here we are!
+
+There will be no guarantee thaat I will post loads of new posts. Also, I'm as interested as much in the backend as I am interested
+in new content, although I could mix the two and do some posts about what I've been doing with the site- although doing that
+exclusively would be boring even for me!
+
+Anyway, hello again! It's been a long time! How is everybody?
