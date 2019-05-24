@@ -2,6 +2,7 @@
 layout: post
 title: About deadjournal, and why it's not on Livejournal
 tags: livejournal
+categories: LiveJournal
 current_mood: thinking
 ---
 Once I ran a blog on Livejournal, almost a decade ago. Then I forgot about it. Then 
