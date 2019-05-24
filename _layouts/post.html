@@ -5,6 +5,19 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    {% if post %}
+    	{% assign categories = post.categories %}
+  	{% else %}
+    	{% assign categories = page.categories %}
+  	{% endif %}
+    {%- if categories -%}
+    <h5 class="">Posted in 
+	{% for category in categories %}
+  		<a href="{{site.baseurl}}/category/{{category|slugize}}.html">{{category}}</a>
+  		{% unless forloop.last %},&nbsp;{% endunless %}
+  	{% endfor %}
+      </h5>
+    {%- endif -%}
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -16,10 +29,31 @@ layout: default
   </header>
 
 	{%- include page_navigation.html -%}
-
+	
+	{%- if page.old_post -%}
+	<div class="original_post">
+		<div class="row">
+		<div class="col">
+			<div class="alert alert-success alert-dismissible fade show">
+				This is a post from my old LiveJournal account, which became the basis for this site. You can find out about my old LJ site, and why I moved it here in <a href="/2019/05/22/About-Deadjournal.html" class="alert-link">this post</a>.
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		    		<span aria-hidden="true">&times;</span>
+		  		</button>
+			</div>
+		</div></div>
+	</div>
+	{%- endif -%}
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+  	<div class="row">
+	  	<div class="col">
+	  		Tags: {% for tag in page.tags %}
+	    	{% capture tag_name %}{{ tag }}{% endcapture %}
+	    		<a class="badge badge-info" href="/tag/{{ tag_name }}">{{ tag_name }}</a>
+	 	 	{% endfor %}
+		</div>
+	</div>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

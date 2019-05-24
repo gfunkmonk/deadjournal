@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Posts for tag: <span class="badge badge-info">{{ page.tag }}</span></h1>
+  </header>
+
+  <div class="post-content">
+  	<div class="row">
+  		<div class="col">
+			<ul>
+			{% for post in site.tags[page.tag] %}
+			  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+			    {{ post.description }}
+			  </li>
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+  </div>
+
+</article>

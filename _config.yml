@@ -30,6 +30,8 @@ plugins:
   
 paginate: 10
 
+permalink: /:year/:month/:day/:title:output_ext
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -42,11 +44,24 @@ exclude:
    - vendor/gems/
    - vendor/ruby/
    - src/
+   - build.ps1
    - runserver_dev.ps1
+   - category_generator.py
+   - tag_generator.py
 
 defaults:
   - scope:
       path: "assets/img"
     values:
       image: true
+  - scope:
+      path: ""          # Set layout for all posts
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "_posts/original"          # Set layout for all posts
+      type: "posts"
+    values:
+      old_post: true
 
