@@ -53,7 +53,7 @@ All I needed was a way to import the old posts from LiveJournal, and I found tha
 thing took a few hours in total to convert the import to Jekyll and hosted on GitHub pages. Then I couldn't resist tweaking it...
 And here we are!
 
-There will be no guarantee thaat I will post loads of new posts. Also, I'm as interested as much in the backend as I am interested
+There will be no guarantee that I will post loads of new posts. Also, I'm as interested as much in the backend as I am interested
 in new content, although I could mix the two and do some posts about what I've been doing with the site- although doing that
 exclusively would be boring even for me!
 
