@@ -13,7 +13,7 @@ layout: default
     {%- if categories -%}
     <h5 class="">Posted in 
 	{% for category in categories %}
-  		<a href="{{site.baseurl}}/category/{{category|slugize}}.html">{{category}}</a>
+  		<a href="{{site.baseurl}}/category/{{category|slugify}}.html">{{category}}</a>
   		{% unless forloop.last %},&nbsp;{% endunless %}
   	{% endfor %}
       </h5>

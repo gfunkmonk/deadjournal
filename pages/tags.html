@@ -1,0 +1,22 @@
+---
+layout: page
+permalink: /tags/
+title: Tags
+---
+<div class="row">
+	<div class="col">
+	{% assign max_posts = 0 %}
+	{% assign sorted_tags = (site.tags | sort:0) %}
+	{% for tag in sorted_tags %}
+		{% assign no_of_posts = ( tag[1] | size ) %}
+		{% if no_of_posts > max_posts %}
+			{% capture max_posts %}{{no_of_posts }}{% endcapture %}
+		{% endif %}
+	{% endfor %}
+	<!-- Max posts : {{ max_posts }}  -->
+	{% for tag in sorted_tags %}
+	    <a href="/tag/{{ tag[0] | slugify }}.html" class="badge badge-info">{{ tag[0] }} 
+	    <span class="badge badge-light">{{ tag[1] | size }}</span></a>
+	{% endfor %}
+	</div>
+</div>

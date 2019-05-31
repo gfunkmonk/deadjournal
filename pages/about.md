@@ -1,6 +1,5 @@
 ---
-layout: page
-title: About deadjournal, and why it's not on Livejournal
+title: About
 permalink: /about/
 ---
 

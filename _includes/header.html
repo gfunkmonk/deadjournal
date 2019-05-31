@@ -3,7 +3,7 @@
 		<div class="row">
 			{%- assign default_paths = site.pages | map: "path" -%} {%- assign
 			page_paths = site.header_pages | default: default_paths -%}
-			<nav class="navbar navbar-inverse">
+			<nav class="navbar navbar-inverse navbar-expand-lg">
 				<div class="container-fluid">
 					<div class="navbar-brand">
 						<a rel="author" href="{{ "/" | relative_url }}"><img src="
@@ -12,22 +12,23 @@
 							rel="author" href="{{ "/" | relative_url }}">{{ site.title |
 							escape }}</a>
 					</div>
-					<button class="navbar-toggler" type="button" data-toggle="collapse"
-						data-target="#HeaderNav" aria-controls="navbarNav"
-						 aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="navbar-collapse collapse" id="HeaderNav">
-					{%- if page_paths -%}
-					<ul class="nav navbar-nav navbar-right pull-right">
-						{%- for path in page_paths -%} {%- assign my_page = site.pages |
-						where: "path", path | first -%} {%- if my_page.title -%}
-						<li class="nav-item"><a class="page-link-old"
-							href="{{ my_page.url | relative_url }}">{{ my_page.title |
-								escape }}</a></li> {%- endif -%} {%- endfor -%}
-					</ul>
+					<button class="navbar-toggler" type="button" 
+					data-toggle="collapse" data-target="#HeaderNav" 
+					aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    					<span class="navbar-toggler-icon"></span>
+  					</button>
+					<div class="collapse navbar-collapse" id="HeaderNav">
+						<ul class="navbar-nav">
+							{%- for path in page_paths -%} {%- assign my_page = site.pages | where: "path", path | first -%} 
+								{%- if my_page.site_page -%}
+								{%- if my_page.title -%}
+							<li class="nav-item"><a class="nav-link" 
+							href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li> 
+								{%- endif -%} 
+								{%- endif -%} 
+							{%- endfor -%}
+						</ul>
 					</div>
-					{%- endif -%}
 				</div>
 			</nav>
 		</div>

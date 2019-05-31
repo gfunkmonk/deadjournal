@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Deadjournal
 description: >- # this means to ignore newlines until "baseurl:"
-  The old Livejournal blog of Michael James, only not on Livejournal.
+  It's Livejournal, but not as we know it..
 author: Michael James
 baseurl: "/deadjournal" # the subpath of your site, e.g. /blog
 url: "https://alephnaughtpix.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -56,9 +56,21 @@ defaults:
       image: true
   - scope:
       path: ""          # Set layout for all posts
+      type: "pages"
+      site_page: false
+    values:
+      layout: "page"
+      site_page: false
+  - scope:
+      path: ""          # Set layout for all posts
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: "pages"          # Set layout for all page
+    values:
+      layout: "page"
+      site_page: true
   - scope:
       path: "_posts/original"          # Set layout for all posts
       type: "posts"
