@@ -59,7 +59,7 @@ who still fondly remembers the thrill of their first Pride march- the pangs of a
 taking part is an important part of the Pride experience. Even those individuals who treat it as a party have their place. Sure, you might not shout any slogans, do anything poltical, and go off to the pub after the march,
 but you've still done something useful because you've *been there* and helped increase LGBT+ visibilty. 
 
-Moreover, the visibility and pride generated is contagious. When I first went on a Pride march, there was only one march in Scotland, but which alternated between Glasgow and Edinburgh. There are now **19** Pride events in Scotland this year. I've been lucky to have already been to a few as a member of the [OPI]({{"/tag/opi.html" | relative_url }}). (Which I'll write about later) One thing
+Moreover, the visibility and pride generated is contagious. When I first went on a Pride march, there was only one march in Scotland, which alternated between Glasgow and Edinburgh. There are now **19** Pride events in Scotland this year. I've been lucky to have already been to a few as a member of the [OPI]({{"/tag/opi.html" | relative_url }}). (Which I'll write about later) One thing
 I have noticed is that the smaller Prides (eg Oban, East Kilbride) are not even attempting to emulate the bigger
 city Prides, and generally much more community focussed. I think this will be a good counterbalance to the
 more corporate Prides elsewhere. Also, the more the message of Pride multiplies outwards to the more remote communities, the better-
