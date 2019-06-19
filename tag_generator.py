@@ -24,7 +24,7 @@ for root, dirnames, original_filenames in os.walk(post_dir):
     for filename in fnmatch.filter(original_filenames, '*.html'):
         filenames.append(os.path.join(root, filename))
 
-print('filenames', filenames)
+#print('filenames', filenames)
 
 total_tags = []
 for filename in filenames:

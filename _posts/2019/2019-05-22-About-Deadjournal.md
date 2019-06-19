@@ -1,5 +1,5 @@
 ---
-title: About deadjournal, and why it's not on Livejournal
+title: About Deadjournal, and why it's not on Livejournal
 tags: livejournal
 categories: LiveJournal
 current_mood: thinking
@@ -12,7 +12,7 @@ at some unspecified point in 2016,
 Why is this important? Well, there's obviously a bit of a problem having your data on 
 servers in a country known to have a record of cyber warfare. There is also a more 
 personal reason. 
-
+<!--more-->
 In 2014, Russia passed a law requiring bloggers with an audience of over 3000 to 
 [register with a government media regulator](https://www.bbc.co.uk/news/technology-28583669). This applies to Livejournal
 now that it is hosted on Russian servers. So it also applied to my blog.
