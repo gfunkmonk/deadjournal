@@ -4,8 +4,10 @@ tags: lgbt queer pride ladymunter opi
 categories: LGBT+
 current_mood: pride
 ---
-Livejournal was the first blog I was openly queer on, and it's hard to express how much of a change it made interms of my online presence. Before I had used 
-early LGBT+ social media websites. (Well, mostly G- the online options for the other letter were very poor in the early 2000s.) Sites like [Gaydar](https://www.gaydar.net/), Out in the UK (Later [OutEverywhere](https://www.outeverywhere.com/), 
+**[Livejournal](/category/livejournal.html)** was the first blog I was openly queer on, and it's hard to 
+express how much of a change it made in terms of my online presence. Before I had used early LGBT+ social 
+media websites. (Well, mostly G- the online options for the other letter were very poor in the early 
+2000s.) Sites like [Gaydar](https://www.gaydar.net/), Out in the UK (Later [OutEverywhere](https://www.outeverywhere.com/), 
 and then the very excellent [Thingbox](https://www.thingbox.com/), with friendly users and lively forums, which enabled me to make a sort of social home on the online LGBT+ community, and connect with other people who were both like me, but also quite different. 
 
 Learning from other's experiences in this way was an important part of my education as a queer person, because it basically was the *only* major option.<!--more--> Apart from the odd monthly magazine, and maybe the odd website, that was it. Section 28 might have been given 
