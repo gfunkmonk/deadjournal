@@ -15,7 +15,7 @@ I'm also super arty. One thing you'll notice from my old posts is that I was get
 
 Oh, and I'm also super queer! I don't mean in the sense of that stereotype of a twink in a crop with an alcopop dancing to Kylie or something. (Which, by the way, is completely valid as far as I'm concerned.) I used to buy into that stereotype, so it took quite a while for me to look at my life, and acknowledge that, *yes*... I am **super** queer. (Even getting used to the word "queer" took some work BTW)
 
-Whilst I'm there: one of the aspects of my queer life is that I'm a queer secular nun- as part of the Glasgow Mission of the [Order Of Perpetual Indulgence]({{"/tags/opi.html"|relative_url}}). **(Note: this blog contains my personal views, I am not speaking for the OPI here.)**
+Whilst I'm there: one of the aspects of my queer life is that I'm a queer secular nun- as part of the Glasgow Mission of the [Order Of Perpetual Indulgence]({{"/tag/opi.html"|relative_url}}). **(Note: this blog contains my personal views, I am not speaking for the OPI here.)**
 
 ### Credits
 
