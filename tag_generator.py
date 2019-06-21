@@ -12,6 +12,7 @@ No plugins required.
 
 import glob
 import os
+import os.path
 import fnmatch
 
 post_dir = '_posts/'
@@ -45,18 +46,27 @@ for filename in filenames:
                 break
     f.close()
 total_tags = set(total_tags)
-
-old_tags = glob.glob(tag_dir + '*.md')
-for tag in old_tags:
-    os.remove(tag)
     
 if not os.path.exists(tag_dir):
     os.makedirs(tag_dir)
 
+old_tags = []
+old_tag_files = glob.glob(tag_dir + '*.md')
+for tag in old_tag_files:
+    old_tag = tag.replace('tag\\','').replace('.md','')
+    if old_tag not in total_tags:
+        old_tags.append(old_tag)
+for tag in old_tags:
+    old_tag_file = 'tags\\' + tag + '.md'
+    print('Removing old tag page: ' + old_tag_file)
+    os.remove(old_tag_file)
+
 for tag in total_tags:
     tag_filename = tag_dir + tag + '.md'
-    f = open(tag_filename, 'a')
-    write_str = '---\nlayout: tags\ntitle: \"Tag: ' + tag + '\"\ntag: ' + tag + '\nrobots: noindex\n---\n'
-    f.write(write_str)
-    f.close()
-print("Tags generated, count", total_tags.__len__())
+    if not os.path.exists(tag_filename):
+        print('NEW ',tag_filename)
+        f = open(tag_filename, 'a')
+        write_str = '---\nlayout: tags\ntitle: \"Tag: ' + tag + '\"\ntag: ' + tag + '\nrobots: noindex\n---\n'
+        f.write(write_str)
+        f.close()
+print("Tags count: ", total_tags.__len__())

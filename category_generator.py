@@ -13,6 +13,7 @@ No plugins required.
 import re
 import glob
 import os
+import os.path
 import fnmatch
 
 post_dir = '_posts/'
@@ -86,20 +87,32 @@ for filename in filenames:
                 break
     f.close()
 total_categories = set(total_categories)
-print('Categories', total_categories)
 
-old_categories = glob.glob(category_dir + '*.md')
-for category in old_categories:
-    os.remove(category)
-    
 if not os.path.exists(category_dir):
     os.makedirs(category_dir)
 
+old_categories = []
+new_catgory_slugs = []
+for category in total_categories:
+    new_catgory_slugs.append(slugify(category))
+
+old_category_files = glob.glob(category_dir + '*.md')
+for category in old_category_files:
+    old_category = category.replace('category\\','').replace('.md','')
+    if old_category not in new_catgory_slugs:
+        print(old_category)
+        old_categories.append(old_category)
+for category in old_categories:
+    old_category_file = 'category\\' + category + '.md'
+    print('Removing old category page: ' + old_category_file)
+    os.remove(old_category_file)
+
 for category in total_categories:
     category_filename = category_dir + slugify(category) + '.md'
-    print('category_filename',category_filename)
-    f = open(category_filename, 'a')
-    write_str = '---\nlayout: categories\ntitle: \"Category: ' + category + '\"\ncategory: ' + category + '\nrobots: noindex\n---\n'
-    f.write(write_str)
-    f.close()
-print("Categories generated, count", total_categories.__len__())
+    if not os.path.exists(category_filename):
+        print('New category page generated:',category_filename)
+        f = open(category_filename, 'a')
+        write_str = '---\nlayout: categories\ntitle: \"Category: ' + category + '\"\ncategory: ' + category + '\nrobots: noindex\n---\n'
+        f.write(write_str)
+        f.close()
+print("Categories count: ", total_categories.__len__())
