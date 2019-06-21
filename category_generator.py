@@ -15,6 +15,7 @@ import glob
 import os
 import os.path
 import fnmatch
+import string
 
 post_dir = '_posts/'
 category_dir = 'category/'
@@ -94,7 +95,7 @@ if not os.path.exists(category_dir):
 old_categories = []
 new_catgory_slugs = []
 for category in total_categories:
-    new_catgory_slugs.append(slugify(category))
+    new_catgory_slugs.append(slugify(category).lower())
 
 old_category_files = glob.glob(category_dir + '*.md')
 for category in old_category_files:
@@ -108,7 +109,7 @@ for category in old_categories:
     os.remove(old_category_file)
 
 for category in total_categories:
-    category_filename = category_dir + slugify(category) + '.md'
+    category_filename = category_dir + slugify(category).lower() + '.md'
     if not os.path.exists(category_filename):
         print('New category page generated:',category_filename)
         f = open(category_filename, 'a')
