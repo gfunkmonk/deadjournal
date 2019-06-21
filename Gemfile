@@ -32,3 +32,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # Open external links in new tab
 gem 'jekyll-target-blank'
+
+# TEST- admin suite
+gem 'jekyll-admin', group: :jekyll_plugins
