@@ -5,7 +5,7 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.category }}</h1>
-    <h6><a href="{{site.baseurl}}/categories/">View all categories</a></h6>
+    <h6><a href="{{ "/categories/" | relative_url }}>View all categories</a></h6>
   </header>
 
   <div class="post-content">
@@ -13,7 +13,7 @@ layout: default
   		<div class="col">
 			<ul>
 			{% for post in site.categories[page.category] %}
-			  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+			  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
 			    {{ post.description }}
 			  </li>
 			{% endfor %}

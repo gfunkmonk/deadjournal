@@ -10,7 +10,8 @@ title: Categories
 {% for category in sorted_categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
-    <h3 class="category-head"><a href="/category/{{ category_name | slugify }}.html">{{ category_name }}</a></h3>
+    {% capture category_url %}/category/{{ category_name | slugify }}.html{% endcapture %}
+    <h3 class="category-head"><a href="{{ category_url | relative_url }}">{{ category_name }}</a></h3>
   </div>
 {% endfor %}
 </div>

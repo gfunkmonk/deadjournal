@@ -15,7 +15,8 @@ title: Tags
 	{% endfor %}
 	<!-- Max posts : {{ max_posts }}  -->
 	{% for tag in sorted_tags %}
-	    <a href="/tag/{{ tag[0] | slugify }}.html" class="badge badge-info">{{ tag[0] }} 
+		{% capture tag_url %}/tag/{{ tag[0] | slugify }}.html{% endcapture %}
+	    <a href="{{ tag_url | relative_url }}" class="badge badge-info">{{ tag[0] }} 
 	    <span class="badge badge-light">{{ tag[1] | size }}</span></a>
 	{% endfor %}
 	</div>
