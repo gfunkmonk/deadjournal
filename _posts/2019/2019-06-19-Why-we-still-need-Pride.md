@@ -24,7 +24,7 @@ I think the first online place I was queer in public was probably Flickr, where 
 Then I did similar on Bebo. (Remember that?) Then I found someone I knew from Thingbox was on Flickr and kept a journal on LiveJournal. LJ at the time was a lively place, with lots of people detailing their personal lives whilst connecting with others. I'd never seen so many people being open about themselves in public before, and it felt like the right place
 for me to just be myself. 
 
-And so, I started in 2006, and went queer with [my very first post]({{ "/10/03/Its-so-easy-to-take-part.html" | relative_url }}). Although it seems quite small now, it was a big step for me. Just giving myself the permission to be open in some small way was a revelation, and gave me the 
+And so, I started in 2006, and went queer with [my very first post]({{ "/2006/10/03/Its-so-easy-to-take-part.html" | relative_url }}). Although it seems quite small now, it was a big step for me. Just giving myself the permission to be open in some small way was a revelation, and gave me the 
 courage to further open myself up. The sort of person I am now would probably be unrecognisable to the person I was in 2006, but I remember being that person in 2006, and how all those seemingly small (but huge for me) steps helped me become the person I am now.
 
 Conditions were worse for people like me in 2006, but they were much worse before then. I'm reminded of this by an
