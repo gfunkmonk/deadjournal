@@ -1,5 +1,5 @@
 ---
-title: A Quick Primer on the Order of Perpetual Indulgence
+title: A quick primer on the Order of Perpetual Indulgence
 layout: post
 tags: opi lgbt queer pride
 categories: ["Order of Perpetual Indulgence"]
