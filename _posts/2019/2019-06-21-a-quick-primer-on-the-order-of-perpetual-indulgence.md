@@ -30,7 +30,7 @@ Next, I'm going to be involved in a project, and hopefully upon completetion of 
 
 Even as a fully fledged Sister, you still have rules. Normally, although I have heard of exceptions, a nun from the OPI cannot go out by themselves, especially on a whim. Obviously, you need at least one other person out with you to keep an eye out. Often this person is a **hench**, an ally who does not dress as a nun; or a **Knight**, who dresses like... Well, guess. 
 
-The advantage of having people like this around you when you're in Nun Mode is that not only can they carry stuff and keep any eye out for you, they can also talk to any talk to anyone that approaches our group, interested in asking who we are, but is a bit wary of approaching the scary clown nun. 
+The advantage of having people like this around you when you're in Nun Mode is that not only can they carry stuff and keep any eye out for you, they can also talk to anyone that approaches our group, interested in asking who we are, but is a bit wary of approaching the scary clown nun. 
 
 Oh yes, talking. I've talked to *so* many people in my two years as a nun, and noticed others talk to our group, but they're maybe a bit scared to talk to us directly. Until they *actually* talk to us. 
 
