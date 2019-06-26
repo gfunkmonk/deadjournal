@@ -1,9 +1,12 @@
 ---
 title: About Deadjournal, and why it's not on Livejournal
+layout: post
 tags: livejournal
-categories: LiveJournal
+categories:
+- Livejournal
 current_mood: thinking
 ---
+
 Once I ran a blog on Livejournal, almost a decade ago. Then I forgot about it. Then 
 Livejournal got bought by a Russian company, but the servers stayed in the West. Then, 
 at some unspecified point in 2016, 

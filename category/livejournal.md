@@ -1,6 +1,6 @@
 ---
 layout: categories
-title: "Category: LiveJournal"
-category: LiveJournal
+title: "Category: Livejournal"
+category: Livejournal
 robots: noindex
 ---

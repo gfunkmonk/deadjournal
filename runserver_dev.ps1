@@ -1,3 +1,4 @@
-python3 category_generator.py
-python3 tag_generator.py
+cd "_plugins/"
+ruby cat_tag_generator.rb
+cd ".."
 bundle exec jekyll serve --config _config.yml,_config.dev.yml

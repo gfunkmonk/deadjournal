@@ -49,8 +49,6 @@ exclude:
    - README.md
    - build.ps1
    - runserver_dev.ps1
-   - category_generator.py
-   - tag_generator.py
 
 defaults:
   - scope:
