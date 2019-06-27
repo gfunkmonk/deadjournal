@@ -43,7 +43,7 @@ layout: default
 		</div></div>
 	</div>
 	{%- endif -%}
-	{%- if page.categories contains "Blip" -%}
+	{%- if page.tags contains "blip" -%}
 	<p class="commentary">I linked my account on proto-streaming service <b>Blip</b> to my LiveJournal account, hence this. I'll try and link to the Spotify equivalent where I can.</p>
 	{%- endif -%}
   <div class="post-content e-content" itemprop="articleBody">
@@ -53,7 +53,8 @@ layout: default
 	  	<div class="col">
 	  		Tags: {% for tag in page.tags %}
 	    	{% capture tag_name %}{{ tag }}{% endcapture %}
-	    		<a class="badge badge-info" href="/tag/{{ tag_name }}">{{ tag_name }}</a>
+	    	{% capture tag_url %}/tag/{{ tag_name | slugify }}.html{% endcapture %}
+	    		<a class="badge badge-info" href="{{ tag_url | relative_url }}">{{ tag_name }}</a>
 	 	 	{% endfor %}
 		</div>
 	</div>
