@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: "Tag: opera"
-tag: opera
+title: "Tag: sarcasm"
+tag: sarcasm
 robots: noindex
 ---

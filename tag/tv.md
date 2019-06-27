@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: "Tag: straight"
-tag: straight
+title: "Tag: tv"
+tag: tv
 robots: noindex
 ---

@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: "Tag: brasil"
-tag: brasil
+title: "Tag: cats"
+tag: cats
 robots: noindex
 ---

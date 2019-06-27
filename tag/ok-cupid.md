@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: "Tag: sex"
-tag: sex
+title: "Tag: ok-cupid"
+tag: ok-cupid
 robots: noindex
 ---

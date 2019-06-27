@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: "Tag: juggling"
-tag: juggling
+title: "Tag: feminist"
+tag: feminist
 robots: noindex
 ---

@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: "Tag: us"
-tag: us
+title: "Tag: climate"
+tag: climate
 robots: noindex
 ---

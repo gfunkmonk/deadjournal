@@ -60,9 +60,11 @@ def category_generator
 		end
 	end 
 	delete_categories.each do |name, filename|
-		if File.exist?(filename)
-			puts 'Deleting ' + filename
-			File.delete(filename)
+		unless filename.nil?
+			if File.exist?(filename)
+				puts 'Deleting ' + filename
+				File.delete(filename)
+			end
 		end
 	end
 	#old_categories = old_categories - delete_categories	# Remove deleted categories from old categories

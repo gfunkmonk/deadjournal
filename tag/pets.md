@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: "Tag: keyboard"
-tag: keyboard
+title: "Tag: pets"
+tag: pets
 robots: noindex
 ---

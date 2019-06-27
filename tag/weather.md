@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: "Tag: brazil"
-tag: brazil
+title: "Tag: weather"
+tag: weather
 robots: noindex
 ---

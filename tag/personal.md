@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: "Tag: quiz,"
-tag: quiz,
+title: "Tag: personal"
+tag: personal
 robots: noindex
 ---

@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: "Tag: gay"
-tag: gay
+title: "Tag: diary"
+tag: diary
 robots: noindex
 ---

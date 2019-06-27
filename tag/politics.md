@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: "Tag: soap"
-tag: soap
+title: "Tag: politics"
+tag: politics
 robots: noindex
 ---

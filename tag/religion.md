@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: "Tag: usa"
-tag: usa
+title: "Tag: religion"
+tag: religion
 robots: noindex
 ---

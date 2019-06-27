@@ -1,7 +1,7 @@
 ---
 title: About Deadjournal, and why it's not on Livejournal
 layout: post
-tags: livejournal
+tags: livejournal lgbt queer politics
 categories:
 - Livejournal
 current_mood: thinking

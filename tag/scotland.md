@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: "Tag: mundo"
-tag: mundo
+title: "Tag: scotland"
+tag: scotland
 robots: noindex
 ---
