@@ -1,6 +1,7 @@
 ---
 title: It's been a long drag...
 layout: post
+excerpt_separator: "<!--more-->"
 categories:
 - LGBT+
 tags: opi drag queer lgbt ladymunter
@@ -27,7 +28,7 @@ This photo was taken so long ago, I completely forgot that this is my first phot
 
 I'd already seen online flyers for the new club (Which was called *Menergy*) on her MySpace page by the time I'd bumped into non-drag Lady Munter at two seperate events in Glasgay 2009, (A Peter Tachell talk, and a performance by David Hoyle.) so we were able to talk a bit about the launch night.
 
-So I'd went to the launch night, and basically stayed for the duration of the club's lifetime, seeing it grow from a simple club night that played tastefully curated Italo-disco, to a period of experimentation with links ups from *Lock Up Your Daughters*, to John Pleased coming out of retirement to spin the decks, to Lady Munter starting to do lip-synch, to other performers starting to take to the stage, moving to the Art School, moving to the basement of a strip club with a disco runway and pole, inviting queens from an unknown show called *RuPaul's Drag Race*, to becoming one of the biggest monthly LGBT+ nights in Glasgow.
+So I'd went to the launch night, and basically stayed for the duration of the club's lifetime, seeing it grow from a simple club night that played tastefully curated Italo-disco, to a period of experimentation with link ups from *Lock Up Your Daughters*, to John Pleased coming out of retirement to spin the decks, to Lady Munter starting to do lip-synch, to other performers starting to take to the stage, moving to the Art School, moving to the basement of a strip club with a disco runway and pole, inviting queens from an unknown show called *RuPaul's Drag Race*, to becoming one of the biggest monthly LGBT+ nights in Glasgow.
 
 <div style="text-align:center">
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/alephnaught/16410958037/" title="Lady Munter and Gia Gunn"><img src="https://live.staticflickr.com/8580/16410958037_a96993af23_z.jpg" width="640" height="425" alt="Lady Munter and Gia Gunn"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
