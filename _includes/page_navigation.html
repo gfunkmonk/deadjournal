@@ -1,16 +1,26 @@
 <div class="alert alert-info" role="alert">
-	<div class="PageNavigation row">
+	<div class="PageNavigation row d-flex align-items-center">
+		<div class="col-1">
+	  {% if page.previous.url %}
+	    <div class="prev text-right"><a href="{{page.previous.url | relative_url }}" data-toggle="tooltip" title="{{page.previous.title}}" class="alert-link">&laquo;</a></div>
+	  {% endif %}
+	  	</div>
 		<div class="col">
 	  {% if page.previous.url %}
-	    <div class="prev text-left"><a href="{{page.previous.url | relative_url }}">&laquo; {{page.previous.title | truncate: 50}}</a></div>
+	    <div class="prev text-left"><a href="{{page.previous.url | relative_url }}"data-toggle="tooltip" title="{{page.previous.title}}" class="alert-link">{{page.previous.title | truncate: 30}}</a></div>
 	  {% endif %}
 	  	</div>
 	  	<div class="col">
-	  	<div class="home text-center"><a href="{{ "/" | relative_url }}">Home</a></div>
+	  	<div class="home text-center"><a href="{{ "/" | relative_url }}" class="alert-link">Home</a></div>
 	  	</div>
 	  	<div class="col">
 	  {% if page.next.url %}
-	    <div class="next text-right"><a href="{{page.next.url | relative_url }}">{{page.next.title | truncate: 50}} &raquo;</a></div>
+	    <div class="next text-right"><a href="{{page.next.url | relative_url }}" data-toggle="tooltip" title="{{page.next.title}}" class="alert-link">{{page.next.title | truncate: 30}}</a></div>
+	  {% endif %}
+	  	</div>
+	  	<div class="col-1">
+	  {% if page.next.url %}
+	    <div class="next text-left"><a href="{{page.next.url | relative_url }}" data-toggle="tooltip" title="{{page.next.title}}" class="alert-link">&raquo;</a></div>
 	  {% endif %}
 	  	</div>
 	</div>

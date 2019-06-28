@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	// External links
 	var current_host_link = document.createElement('a');
 	current_host_link.href = window.location.href;
 	var current_host = current_host_link.hostname;
@@ -9,4 +10,6 @@ $(document).ready(function() {
 		if (link_hostname != current_host)
 			$(this).attr('target', '_blank');
 	});
+	// Tooltips
+	$('[data-toggle="tooltip"]').tooltip();
 });
