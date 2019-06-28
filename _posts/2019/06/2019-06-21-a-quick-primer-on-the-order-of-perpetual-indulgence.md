@@ -1,8 +1,10 @@
 ---
 title: A quick primer on the Order of Perpetual Indulgence
 layout: post
+excerpt_separator: "<!--more-->"
 tags: opi lgbt queer pride
-categories: ["Order of Perpetual Indulgence"]
+categories:
+- Order of Perpetual Indulgence
 ---
 
 **(Again, a reminder that this is my personal blog, so these are my personal views, and I'm not speaking on behalf of the OPI.)**
@@ -39,3 +41,9 @@ When I mentioned history earlier, (I have heard the word **Sistory** used quite 
 You'll notice I'm referring to the Sisters of Perpetual Indulgence there, and Order of Perpetual Indulgence elsewhere. Well, the former is a trademark in North America, so elsewhere is officially the latter. Colloquially, however, I've heard everyone refer to each other as Sisters, irrespective of where they are on their journey. 
 
 I'll add more bits of info as I add posts- it'll be under the [OPI]({{"/tag/opi.html" | relative_url }}) tag and [category]({{"/category/order-of-perpetual-indulgence.html" | relative_url }}/)- as it's [Pride]({{"/tag/pride.html" | relative_url }}) season, and the Sisters are going to be very busy!
+
+*The above picture was taken at Cardiff Pride in 2018. I also took a lot of photos, which you can view here.*
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/alephnaughtphotos/albums/72157672979419518" title="OPI: Cardiff Pride 2018"><img src="https://live.staticflickr.com/1875/43514937735_a53df4e2cf_z.jpg" width="640" height="428" alt="OPI: Cardiff Pride 2018"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+*You can see more my photos of the OPI at my [Flickr OPI Collection](https://www.flickr.com/photos/alephnaughtphotos/collections/72157690136697295/).*
