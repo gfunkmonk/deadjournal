@@ -44,7 +44,7 @@ With some queens, (Lady Munter being a very good example) drag was an extension 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/alephnaught/28239074614/" title="Waiting for the Act"><img src="https://live.staticflickr.com/8215/28239074614_d5c7445d0c_z.jpg" width="640" height="430" alt="Waiting for the Act"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
-I still didn't do drag when I was at *Menergy* though. Well, OK, I tried it once, and I was awful. I knew there was going to be trouble when I starting to try on wigs in the shop, and nearly every one of them made me look like the lead singer of a Norwegian death metal band. The actual final look at best made me look like Gwen Cooper out of *Torchwood* on a girls night out in Cardiff town centre. Other times, I looked like Jeff Beck in a dress. I think I've managed to destroy all photos of that night, Thank goodness phone cameras then weren't as good as they are now. I tried it though, and it didn't suit me, so that was that.
+I still didn't do drag when I was at *Menergy* though. Well, OK, I tried it once, and I was awful. I knew there was going to be trouble when I starting to try on wigs in the shop, and nearly every one of them made me look like the lead singer of a Norwegian death metal band. The actual final look at best made me look like Gwen Cooper out of *Torchwood* on a girls night out in Cardiff town centre. Other times, I looked like Jeff Beck in a dress. I think I've managed to destroy all photos of that night, Thank goodness phone cameras then weren't as good as they are now. I tried drag though, and it didn't suit me, so that was that.
 
 Or so I thought. 
 
