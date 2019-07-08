@@ -7,7 +7,7 @@ categories:
 - Order of Perpetual Indulgence
 ---
 
-I mentioned in [an earlier post]({{"/2019/06/27/its-been-a-long-drag.html"|relative_url}}) about getting ready as [Novice Wye Dangle]({{"/tag/opi.html"|relative_url}}) for Pride Edinburgh. One thing I didn't mention was that I was worried that I wouldn't fit in the  dress I was supposed to be wearing. Normally, I have my Sisters look all sorted, and I know what I'm going to be wearing, and if it fits me. Today, however, I was borrowing someone else's dress, and, rather shamefully, despite being in the Sisters for about 2 years, I didn't know my dress size, but it was kinda important that I did fit in it. Why? Because it was green.
+I mentioned in [an earlier post]({{"/2019/06/27/its-been-a-long-drag.html"|relative_url}}) about getting ready as [Novice Wye Dangle]({{"/tag/opi.html"|relative_url}}) for Pride Edinburgh. One thing I didn't mention was that<!--more--> I was worried that I wouldn't fit in the  dress I was supposed to be wearing. Normally, I have my Sisters look all sorted, and I know what I'm going to be wearing, and if it fits me. Today, however, I was borrowing someone else's dress, and, rather shamefully, despite being in the Sisters for about 2 years, I didn't know my dress size, but it was kinda important that I did fit in it. Why? Because it was green.
 
 To explain, Sister Liza Viscious of the Edinburgh Sisters had a simple but brilliant idea: to have the Sisters colour coordinate their habits so that each Sister was a different colour- so that individually we'd look striking as always, but together, we'd be a rainbow. It might sound like a small thing, but visually, it stands out enough for people to take notice.
 
