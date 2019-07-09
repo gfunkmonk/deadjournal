@@ -4,7 +4,7 @@ layout: post
 excerpt_separator: "<!--more-->"
 categories:
 - LGBT+
-tags: lgbt pride opi queer community
+tags: lgbt pride opi queer community drag
 ---
 
 I've been to two Prides as [Novice Wye]({{"/tag/opi.html" | relative_url }}) in as many weeks. Pride in Edinburgh was as big as you'd expect, but the one a week before that in East Kilbride was the polar opposite. <!--more-->

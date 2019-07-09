@@ -4,7 +4,7 @@ layout: post
 excerpt_separator: "<!--more-->"
 tags: opi lgbt queer pride
 categories:
-- Order of Perpetual Indulgence
+- Order of Perpetual Indulgence drag
 ---
 
 **(Again, a reminder that this is my personal blog, so these are my personal views, and I'm not speaking on behalf of the OPI.)**

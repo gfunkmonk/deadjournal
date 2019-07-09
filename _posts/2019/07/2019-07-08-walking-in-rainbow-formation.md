@@ -2,7 +2,7 @@
 title: Walking in Rainbow formation
 layout: post
 excerpt_separator: "<!--more-->"
-tags: queer pride opi lgbt photography prideedinburgh2019
+tags: queer pride opi lgbt photography prideedinburgh2019 drag
 categories:
 - Order of Perpetual Indulgence
 ---
