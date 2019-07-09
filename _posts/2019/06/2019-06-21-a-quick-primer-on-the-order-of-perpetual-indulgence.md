@@ -2,9 +2,9 @@
 title: A quick primer on the Order of Perpetual Indulgence
 layout: post
 excerpt_separator: "<!--more-->"
-tags: opi lgbt queer pride
+tags: opi lgbt queer pride drag
 categories:
-- Order of Perpetual Indulgence drag
+- Order of Perpetual Indulgence
 ---
 
 **(Again, a reminder that this is my personal blog, so these are my personal views, and I'm not speaking on behalf of the OPI.)**
