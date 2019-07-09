@@ -21,6 +21,8 @@ baseurl: "/deadjournal" # the subpath of your site, e.g. /blog
 url: "https://alephnaughtpix.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: alephnaught
 github_username:  alephnaughtpix
+flickr_username: alephnaught
+instagram_username: alephnaughtpix
 show_excerpts: True
 
 # Build settings

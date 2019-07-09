@@ -1,9 +1,10 @@
 <header class="site-header container-fluid" role="banner">
 	<div class="wrapper">
 		<div class="row">
+			<div class="col">
 			{%- assign default_paths = site.pages | map: "path" -%} {%- assign
 			page_paths = site.header_pages | default: default_paths -%}
-			<nav class="navbar navbar-inverse navbar-expand-lg">
+			<nav class="navbar navbar-light navbar-expand-lg nav-fill">
 				<div class="container-fluid">
 					<div class="navbar-brand">
 						<a rel="author" href="{{ "/" | relative_url }}"><img src="
@@ -29,6 +30,7 @@
 							{%- endfor -%}
 						</ul>
 					</div>
+				</div>
 				</div>
 			</nav>
 		</div>
