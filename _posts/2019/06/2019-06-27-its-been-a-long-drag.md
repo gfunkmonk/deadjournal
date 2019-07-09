@@ -4,7 +4,7 @@ layout: post
 excerpt_separator: "<!--more-->"
 categories:
 - LGBT+
-tags: opi drag queer lgbt ladymunter menergy
+tags: opi drag queer lgbt ladymunter menergy prideedinburgh2019
 ---
 
 Last Saturday I was at Edinburgh Pride, as part of my work with the [Order of Perpetual Indulgence]({{"/tag/opi.html" | relative_url }}). Usually, what this involves is going to one of the Sisters' houses at an early time in order to get ready (*Manifest* in the Sister parlance): in this case the flat of **Sister Liza Vicious**, my Mother in the OPI. However, this morning, there was a difference. <!--more--> Sister Liza was out in drag the previous night with **April Adamàs**, one of the local drag queens, who had stayed over in her spare bedroom, and had just got up to get ready for Pride. So, for most of time, everyone in the house was getting their make  up on, and sorting out their look.
