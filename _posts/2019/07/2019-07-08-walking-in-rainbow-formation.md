@@ -7,7 +7,7 @@ categories:
 - Order of Perpetual Indulgence
 ---
 
-I mentioned in [an earlier post]({{"/2019/06/27/its-been-a-long-drag.html"|relative_url}}) about getting ready as [Novice Wye Dangle]({{"/tag/opi.html"|relative_url}}) for Pride Edinburgh. One thing I didn't mention was that<!--more--> I was worried that I wouldn't fit in the  dress I was supposed to be wearing. Normally, I have my Sisters look all sorted, and I know what I'm going to be wearing, and if it fits me. Today, however, I was borrowing someone else's dress, and, rather shamefully, despite being in the Sisters for about 2 years, I didn't know my dress size, but it was kinda important that I did fit in it. 
+I mentioned in [an earlier post]({{"/2019/06/27/its-been-a-long-drag.html"|relative_url}}) about getting ready as [Novice Wye Dangle]({{"/tag/opi.html"|relative_url}}) for Pride Edinburgh. One thing I didn't mention was that<!--more--> I was worried that I wouldn't fit in the  dress I was supposed to be wearing. Normally, I have my Sisters look all sorted, and I know what I'm going to be wearing, and if it fits me. Today, however, I was borrowing someone else's dress- and, rather shamefully, despite being in the Sisters for about 2 years, I didn't know my dress size-, but it was kinda important that I did fit in it. 
 
 Why? Because it was green.
 
@@ -28,3 +28,5 @@ The act of getting into the mass media is known in the Sisters as *Media Whoring
 I've also found that it's almost impossible to predict which acts will be picked up by the media, (Andrew was one of many professional photographers out at Pride.) or indeed *when* it gets picked up. I've often seen pictures of the Sisters from years ago being as stock go-to images for Pride and LGBT+ stories in the mainstream. One such image of the Glasgow Sisters from Glasgow Pride in 2017 turned up over a year later in a story about equal marriage in an Italian newspaper.
 
 But, however it happens, when it happens, you have unlocked your Media Whoring acheivement, which is an essential for any aspiring Novice!
+
+Anyway, the dress *did* fit me. And hence, I now know my dress size.
