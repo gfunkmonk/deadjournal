@@ -22,9 +22,9 @@ The OPI is a group of 21st century secular queer nuns, whose mission is to:
 2. **Expiate Stigmatic Guit**. Removing the unneccessary guilt piled on us by society.
 3. **Serve the Community**. This is the LGBT+ community, but we've supported causes in the wider community too. Typical activities including turning up to support events, giving out safer sex packs, (Which contains condoms and lube as well as helpful information) organising coffee mornings etc.
 
-When I say "nuns", I don't mean I just threw on a habit one day and decided to be fabulous. Like nuns, the OPI have a path, or **journey**, for anyone wanting to be involved. When I first got involved with them, I was merely their photographer. Then as I got more interested I became an **Aspirant**, someone who wants to join the Sisters on their work. After a few events with the Sisters, and learning their history, I became a **Postulant**, the lowest order for a nun, and wore the clown-face makeup for the first time. (But no lipstick- you're supposed to be *listening* rather than talking.) 
+When I say "nuns", I don't mean I just threw on a Habit one day and decided to be fabulous. Like nuns, the OPI have a path, or **journey**, for anyone wanting to be involved. When I first got involved with them, I was merely their photographer. Then as I got more interested I became an **Aspirant**, someone who wants to join the Sisters on their work. After a few events with the Sisters, and learning their history, I became a **Postulant**, the lowest order for a nun, and wore the clown-face makeup for the first time. (But no lipstick- you're supposed to be *listening* rather than talking.) 
 
-After that, I learned how to make a formal nun's habit, (All the Sisters have formal habits, with different distinct designs for each group, so you can tell at a glance a member of a particular group, and where they are in their Sister journey.) which meant I could become a **Novice**, the next level up. Now, I could wear lipstick, and I gained the distinctive 'giomp' collar, which gains badges from my various travels.
+After that, I learned how to make a formal nun's **Habit**, (It's not a "costume", it's a Habit. All the Sisters have formal Habits, with different distinct designs for each group, so you can tell at a glance a member of a particular group, and where they are in their Sister journey. Putting on the Habit and face is known as **Manifesting**.) which meant I could become a **Novice**, the next level up. Now, I could wear lipstick, and I gained the distinctive 'giomp' collar, which gains badges from my various travels.
 
 I'm still restricted, of course. I cannot speak for the OPI, although I *can* speak for my experiences in my journey, which is what I'm doing here. (Hence the disclaimer at the start of this post.)
 
@@ -32,7 +32,7 @@ Next, I'm going to be involved in a project, and hopefully upon completetion of 
 
 Even as a fully fledged Sister, you still have rules. Normally, although I have heard of exceptions, a nun from the OPI cannot go out by themselves, especially on a whim. Obviously, you need at least one other person out with you to keep an eye out. Often this person is a **hench**, an ally who does not dress as a nun; or a **Knight**, who dresses like... Well, guess. 
 
-The advantage of having people like this around you when you're in Nun Mode is that not only can they carry stuff and keep any eye out for you, they can also talk to anyone that approaches our group, interested in asking who we are, but is a bit wary of approaching the scary clown nun. 
+The advantage of having people like this around you when you're in Nun mode is that not only can they carry stuff and keep any eye out for you, they can also talk to anyone that approaches our group, interested in asking who we are, but is a bit wary of approaching the scary clown nun. 
 
 Oh yes, talking. I've talked to *so* many people in my two years as a nun, and noticed others talk to our group, but they're maybe a bit scared to talk to us directly. Until they *actually* talk to us. 
 

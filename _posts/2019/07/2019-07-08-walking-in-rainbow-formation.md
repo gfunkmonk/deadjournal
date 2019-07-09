@@ -7,7 +7,7 @@ categories:
 - Order of Perpetual Indulgence
 ---
 
-I mentioned in [an earlier post]({{"/2019/06/27/its-been-a-long-drag.html"|relative_url}}) about getting ready as [Novice Wye Dangle]({{"/tag/opi.html"|relative_url}}) for Pride Edinburgh. One thing I didn't mention was that<!--more--> I was worried that I wouldn't fit in the  dress I was supposed to be wearing. Normally, I have my Sisters look all sorted, and I know what I'm going to be wearing, and if it fits me. Today, however, I was borrowing someone else's dress- and, rather shamefully, despite being in the Sisters for about 2 years, I didn't know my dress size-, but it was kinda important that I did fit in it. 
+I mentioned in [an earlier post]({{"/2019/06/27/its-been-a-long-drag.html"|relative_url}}) about getting ready as [Novice Wye Dangle]({{"/tag/opi.html"|relative_url}}) for [Pride Edinburgh]({{"/tag/prideedinburgh2019.html"|relative_url}}). One thing I didn't mention was that<!--more--> I was worried that I wouldn't fit in the  dress I was supposed to be wearing. Normally, I have my Sisters look all sorted, and I know what I'm going to be wearing, and if it fits me. Today, however, I was borrowing someone else's dress- and, rather shamefully, despite being in the Sisters for about 2 years, I didn't know my dress size-, but it was kinda important that I did fit in it. 
 
 Why? Because it was green.
 
