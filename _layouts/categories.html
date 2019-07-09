@@ -11,6 +11,13 @@ layout: default
   </header>
 
   <div class="post-content">
+  	{%- if content != "" -%}
+  	<div class="row">
+  		<div class="col">
+  			{{ content }}
+  		</div>
+  	</div>
+  	{%- endif -%}
   	<div class="row">
   		<div class="col">
 			<ul>
