@@ -12,4 +12,26 @@ $(document).ready(function() {
 	});
 	// Tooltips
 	$('[data-toggle="tooltip"]').tooltip();
+	// Night mode
+	var mode = Cookies.get('night_mode');
+	if (mode != undefined)
+		if (mode == "true") {
+			$('#night_mode_toggle').parent().click();
+			toggleNightMode();
+		}
+	$('#night_mode_toggle').parent().click( function() {
+		toggleNightMode();
+	});
 });
+
+function toggleNightMode() {
+	var body = $('body');
+	if ($(body).hasClass('night_mode')) {
+		$(body).removeClass('night_mode');
+		Cookies.set('night_mode', 'false');
+	}
+	else {
+		$(body).addClass('night_mode');
+		Cookies.set('night_mode', 'true');
+	}
+}

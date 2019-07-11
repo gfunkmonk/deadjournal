@@ -49,9 +49,10 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-  	<div class="row">
+  	<div class="row tags_for_post">
 	  	<div class="col">
-	  		Tags: {% for tag in page.tags %}
+	  		{% assign sorted_tags = page.tags | sort: 0 %}
+	  		Tags: {% for tag in sorted_tags %}
 	    	{% capture tag_name %}{{ tag }}{% endcapture %}
 	    	{% capture tag_url %}/tag/{{ tag_name | slugify }}.html{% endcapture %}
 	    		<a class="badge badge-info" href="{{ tag_url | relative_url }}">{{ tag_name }}</a>

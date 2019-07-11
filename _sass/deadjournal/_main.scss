@@ -4,3 +4,58 @@
 		margin-right: auto;
 	}
 }
+
+.tags_for_post {
+	margin-bottom: 15px;
+}
+
+#HeaderNav {
+	.toggle {
+		margin-left: 50px;
+		border-color: #ee5f5b!important;
+		.toggle-group {
+			label.toggle-on {
+				background: none!important;
+				@extend .text-danger;
+				&:hover {
+					@extend .text-light;
+				}
+			}
+		}
+		.toggle-handle {
+			@extend .btn-danger;
+		}
+		&:hover {
+			label.toggle-on {
+				@extend .text-light;
+			}
+			.toggle-handle {
+				background-image: none!important;
+				background-color:white!important;
+			}
+		}
+		&.off {
+			border-color: #6c757d!important;
+			.toggle-group {
+				label.toggle-off {
+					background: none!important;
+					@extend .text-secondary;
+					&:hover {
+						@extend .text-light;
+					}
+				}
+			}
+			.toggle-handle {
+				@extend .btn-secondary;
+			}
+			&:hover {
+				.toggle-handle {
+					background-color:white!important;
+				}
+				label.toggle-off {
+					@extend .text-light;
+				}
+			}
+		}
+	}
+}

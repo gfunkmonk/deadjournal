@@ -1,0 +1,57 @@
+body.night_mode {
+	
+	.navbar {
+		border:none;
+	}
+	
+	.navbar {
+		.navbar-brand {
+			border: none;
+		}
+		.nav-link {
+			border:none;
+			@extend .text-info;
+			&.active {
+				@extend .btn-info;
+				@extend .text-light;
+				@extend .rounded;
+			}
+		}
+	}
+	
+	.site-title {
+		@extend .text-warning;
+	}
+	
+	a {
+		@extend .text-success;
+	}
+	
+	a.badge.badge-info {
+		@extend .text-light;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	}
+	
+	.PageNavigation {
+		a {
+			@extend .text-light;
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+		}
+	}
+	
+	.alert-success {
+		a {
+			@extend .text-light;
+			text-decoration: underline;
+		}
+	}
+	
+	.commentary, .question {
+		color: black!important;
+	}
+
+	.navbar-light {
+		@extend .navbar-dark;
+	}
+
+}

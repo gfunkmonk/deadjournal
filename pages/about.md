@@ -3,6 +3,7 @@ title: About
 layout: page
 site_page: true
 permalink: "/about/"
+nav_active: "about"
 ---
 
 ### About
@@ -24,4 +25,4 @@ Whilst I'm there: one of the aspects of my queer life is that I'm a queer secula
 
 This blog is being hosted on GitHub Pages, using [Jekyll](https://github.com/jekyll). My
 old Livejournal posts (2006-2011) were extracted from my LJ account using 
-[LJDump](https://hewgill.com/ljdump/).
+[LJDump](https://hewgill.com/ljdump/). I'm using [Bootstrap](https://getbootstrap.com/) for formatting, [JSCookie](https://github.com/js-cookie/js-cookie) for cookie handling, and [Bootstrap 4 Toggle](https://gitbrent.github.io/bootstrap4-toggle/) for the Night Mode switch. The actual Night Mode styling is based on the [Slate](https://bootswatch.com/slate/) theme from [Bootswatch](https://bootswatch.com/).

@@ -4,7 +4,7 @@
 			<div class="col">
 			{%- assign default_paths = site.pages | map: "path" -%} {%- assign
 			page_paths = site.header_pages | default: default_paths -%}
-			<nav class="navbar navbar-light navbar-expand-lg nav-fill">
+			<nav class="navbar navbar-pills navbar-light navbar-expand-lg nav-fill" role="navigation">
 				<div class="container-fluid">
 					<div class="navbar-brand">
 						<a rel="author" href="{{ "/" | relative_url }}"><img src="
@@ -23,11 +23,28 @@
 							{%- for path in page_paths -%} {%- assign my_page = site.pages | where: "path", path | first -%} 
 								{%- if my_page.site_page -%}
 								{%- if my_page.title -%}
-							<li class="nav-item"><a class="nav-link" 
+									{%- assign active_class = "" -%}
+									{%- if my_page.nav_active !=  -%}
+										{%- if my_page.nav_active == page.nav_active -%}
+											{%- assign active_class = " active" -%}
+										{%- endif -%}
+									{%- endif -%}
+							<li class="nav-item"><a class="nav-link{{ active_class }}" 
 							href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li> 
 								{%- endif -%} 
 								{%- endif -%} 
 							{%- endfor -%}
+							<li class="nav-item">
+								<input 
+									type="checkbox" 
+									class="form-check-input" 
+									id="night_mode_toggle" 
+									data-toggle="toggle" 
+									data-on="Night" data-off="Light"
+									data-offstyle="outline-secondary"
+									data-onstyle="outline-danger"
+									>
+							</li>
 						</ul>
 					</div>
 				</div>
