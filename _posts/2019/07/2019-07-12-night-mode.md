@@ -47,7 +47,7 @@ sass:
 
 There is one thing to watch out for: if the theme SCSS contains selectors for `body` tag itself. (Which sets the base background and foreground colours for the web page.) But that's easy to fix: just replace `body` with `&`, and SCSS will interpret that as styling for `body.night_mode`.
 
-So now the site had Night Mode styling that only kicked in when the `<body>` of the web page had the class `night_mode`. (I was able to test this on Chrome browser using the development tools, by going into the *Elements* tab, and adding `class="night_mode`, and checking the Night Mode was kicking, then removing the class, and checking the default styling returned.) The next step was to add functionality to web page to switch the Night Mode on and off.
+So now the site had Night Mode styling that only kicked in when the `<body>` of the web page had the class `night_mode`. (I was able to test this on Chrome browser using the development tools, by going into the *Elements* tab, and adding `class="night_mode"`, and checking the Night Mode was kicking in, then removing the class, and checking the default styling returned.) The next step was to add functionality to web page to switch the Night Mode on and off.
 
 I already had a good idea I wanted to do a sliding switch, which I had implemented in a previous project. This had used a Bootstrap extension which styled a checkbox as a sliding switch. So the first I did was put a checkbox on the top navigation and give it an id `night_mode_toggle`. So it was quite easy to add to the main site Javascript:
 
@@ -76,7 +76,7 @@ function nightModeOn() {
 }
 ```
 
-You can see I'm using [Jquery](https://jquery.com/) here to manipulate the `body` tag, and set the even for the checkbox. Anyway, this worked, and I was able to turn the Night Mode on and off using the checkbox. Next was making sure the browser remembers this choice, and the obvious choice here is to use cookies: send the browser a cookie if in Night Mode, and check for a cookie coming back that specified Night Mode was switched on. Again, this was fairly easy. I used the [JS Cookie](https://github.com/js-cookie/js-cookie) library for this, which made it much easier to handle and check for cookies.
+You can see I'm using [Jquery](https://jquery.com/) here to manipulate the `body` tag, and set the event for the checkbox. Anyway, this worked, and I was able to turn the Night Mode on and off using the checkbox. Next was making sure the browser remembers this choice, and the obvious choice here is to use cookies: send the browser a cookie if in Night Mode, and check for a cookie coming back that specified Night Mode was switched on. Again, this was fairly easy. I used the [JS Cookie](https://github.com/js-cookie/js-cookie) library for this, which made it much easier to handle and check for cookies.
 
 ```
 var mode = Cookies.get('night_mode');
