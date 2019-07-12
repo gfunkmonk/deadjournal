@@ -4,6 +4,13 @@
   {%- include head.html -%}
 
   <body>
+  	<script language="javascript">
+		var mode = Cookies.get('night_mode');
+		if (mode != undefined)
+			if (mode == "true") {
+		  		document.body.className = "night_mode";
+			}
+  	</script>
 
     {%- include header.html -%}
 
@@ -14,7 +21,6 @@
     </main>
 
     {%- include footer.html -%}
-    {%- include bootstrap.html -%}
 
   </body>
 

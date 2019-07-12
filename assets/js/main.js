@@ -1,5 +1,21 @@
 var body = $('body');
 
+function checkDisplayMode() {
+	var mode = Cookies.get('night_mode');
+	if (mode != undefined)
+		if (mode == "true") {
+			if (!($(body).hasClass('night_mode')))
+				nightModeOn();
+			else
+				$('#night_mode_toggle').bootstrapToggle('on');
+		}
+	setTimeout( function() {
+		$('#mode-toggle-wrapper').animate({
+		    opacity: 1
+		}, 'slow');
+	}, 500);
+}
+
 $(document).ready(function() {
 	// External links
 	var current_host_link = document.createElement('a');
@@ -15,12 +31,7 @@ $(document).ready(function() {
 	// Tooltips
 	$('[data-toggle="tooltip"]').tooltip();
 	// Night mode
-	var mode = Cookies.get('night_mode');
-	if (mode != undefined)
-		if (mode == "true") {
-			$('#night_mode_toggle').parent().click();
-			nightModeOn();
-		}
+	checkDisplayMode();
 	$('#night_mode_toggle').parent().click( toggleNightMode );
 });
 

@@ -109,3 +109,5 @@ I also had to hack around a bit to get the styling right. Some of it was partly 
 So that is that! I now have a Night Mode switch for this website.
 
 There are a couple of things I think I could improve about it. Most obvious is that if Night has been selected, the next you load another page, it starts in default mode, then switches to Night Mode, leading to a flash at the start of each page as it goes from default to Night Mode. If you were running this off a server generated page, you could set the body class to Night Mode as the page is being served, but on a static site like you don't have that option. I've got a possible idea about how to achieve this, and if I actually get it to work, I'll let you know! Other improvements would be small things like making the transition between modes more smooth (I've already added a transistion to the colour changes.), and maybe changing the text on the toggle to icons to make it smaller, but we'll see what happens.
+
+**UPDATE**: I've actually been able to fix the "flash" issue. I describe how I did it in [this post]({{"/2019/07/12/a-better-night.html"|relative_url}}).
