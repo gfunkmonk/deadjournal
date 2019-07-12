@@ -7,7 +7,7 @@ title: A better night...
 date: '2019-07-12 16:30:00'
 ---
 
-Well, that was quick! I've already been able to fix that transistion problem I described in my [previous post]({{"/2019/07/12/night-mode.html"|relative_url}}). 
+Well, that was quick! I've already been able to fix that transistion problem I described in my [previous post]({{"/2019/07/12/night-mode.html"|relative_url}}).<!--more-->
 
 The problem was that the page could either be displayed in Light Mode or Dark Mode, but it's default state would be in Light Mode, so if you were viewing in Night Mode, and went to another page, there would be a brief flash as the page initially rendered in Light Mode before receiving the cookie from the browser, and transitioned to Night Mode. I was beginning to find it very annoying, and it also slowed navigating round the site in Night Mode, as you had to wait for the transition to stop before you could what was going on. 
 
