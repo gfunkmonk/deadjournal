@@ -6,7 +6,7 @@ tags: geek jekyll javascript css technotes
 categories: Geek
 date: '2019-07-12 12:30:00'
 ---
-*I've (already warned you)[{{"/about/"|relative_url}}) that I'm a supergeek. Now I'm going to show it...*
+*I've [already warned you]({{"/about/"|relative_url}}) that I'm a supergeek. Now I'm going to show it...*
 
 I've used Night Mode in various web applications, and it's even supported on my MacOS desktop computer, so I thought: can I implement it in this website? Well, you might have noticed a new switch on the top right of this page, which switches Night mode on or off, and that it remembers your choice when going to another page. So, how did I do this?<!--more-->
 
