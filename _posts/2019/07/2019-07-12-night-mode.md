@@ -38,7 +38,7 @@ body.night_mode {
 }
 ```
 
-As you can see, doing it this way in SCSS is far easier than if it was being done in CSS- in CSS, you would have to prepend `body.night_mode` to every blummin' CSS selector! Also, this is why I didn't get the minimised version of the theme, as I need to do some alterations to get this to work. As I've already set SCSS minifying in the `_config.yml` anyway, the final resulting site will have minified CSS anyway, so it doesn't matter if the source is minified or not, but it certainly makes it easier for me! If you haven't turned on SCSS minifying on your site, you can do it by putting the following in your `_config.yml` file.
+As you can see, doing it this way in SCSS is far easier than if it was being done in CSS- in CSS, you would have to prepend `body.night_mode` to every blummin' CSS selector! Also, this is why I didn't get the minimised version of the theme, as I need to do some alterations to get this to work. As I've already set SCSS minifying in the `_config.yml` anyway, the final resulting site will have minified CSS, so it doesn't matter if the source is minified or not, but it certainly makes it easier for me! If you haven't turned on SCSS minifying on your site, you can do it by putting the following in your `_config.yml` file.
 
 ```
 sass:
