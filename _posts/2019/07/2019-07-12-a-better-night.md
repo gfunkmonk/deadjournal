@@ -49,3 +49,5 @@ function checkDisplayMode() {
 ```
 
 It's a bit of a hack, to be sure, but it works, and if you have Javascript turned off, it'll default to Light Mode, and the slider toggle (Which wouldn't work anyway.) does not appear.
+
+Well, when I said "it works", it works on the *desktop* browser. It also works on mobile devices, but there's a couple of formatting issues to sort out...
