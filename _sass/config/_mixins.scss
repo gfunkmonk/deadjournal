@@ -1,0 +1,18 @@
+@mixin clip_circle($radius: 75px) {
+	-webkit-clip-path: circle($radius at center);
+	clip-path: circle($radius at center);
+}
+
+@mixin transition($params, $easing: $transistion_ease ) {
+    -moz-transition: margin $params $easing;
+    -o-transition: margin $params $easing;
+	-webkit-transition: $params $easing;
+	transition: $params $easing;
+}
+
+@mixin transition_reset($params) {
+	-moz-transition: none;
+    -webkit-transition: none;
+    transition: none;
+}
+

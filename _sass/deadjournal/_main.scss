@@ -10,6 +10,9 @@
 }
 
 #HeaderNav {
+	#night_mode_toggle {
+		visibility: hidden;
+	}
 	.toggle {
 		margin-left: 50px;
 		border-color: #ee5f5b!important;
@@ -59,3 +62,8 @@
 		}
 	}
 }
+
+body {
+	@include transition(all $transition_speed_fast);
+}
+

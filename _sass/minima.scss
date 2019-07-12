@@ -49,8 +49,20 @@ $on-laptop:        800px !default;
   "minima/layout",
   "minima/syntax-highlighting",
   "minima/customisations",
+	"config/base",
   "bootstrap/main",
   "bootstrap/toggle",
-  "night_mode/base",
-  "deadjournal/main"
-;
+  "night_mode/base";
+  
+.navbar {
+	.nav-link {
+		&.active {
+			@extend .btn-info;
+			@extend .text-light;
+			@extend .rounded;
+		}
+	}
+ }
+
+ @import 
+  "deadjournal/main";

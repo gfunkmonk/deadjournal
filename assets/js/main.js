@@ -1,3 +1,5 @@
+var body = $('body');
+
 $(document).ready(function() {
 	// External links
 	var current_host_link = document.createElement('a');
@@ -17,21 +19,25 @@ $(document).ready(function() {
 	if (mode != undefined)
 		if (mode == "true") {
 			$('#night_mode_toggle').parent().click();
-			toggleNightMode();
+			nightModeOn();
 		}
-	$('#night_mode_toggle').parent().click( function() {
-		toggleNightMode();
-	});
+	$('#night_mode_toggle').parent().click( toggleNightMode );
 });
 
 function toggleNightMode() {
-	var body = $('body');
-	if ($(body).hasClass('night_mode')) {
-		$(body).removeClass('night_mode');
-		Cookies.set('night_mode', 'false');
-	}
-	else {
-		$(body).addClass('night_mode');
-		Cookies.set('night_mode', 'true');
-	}
+	if ($(body).hasClass('night_mode')) 
+		nightModeOff();
+	else 
+		nightModeOn();
 }
+
+function nightModeOff() {
+	$(body).removeClass('night_mode');
+	Cookies.set('night_mode', 'false');	
+}
+
+function nightModeOn() {
+	$(body).addClass('night_mode');
+	Cookies.set('night_mode', 'true');
+}
+
