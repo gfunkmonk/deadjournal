@@ -10,8 +10,10 @@
 }
 
 #HeaderNav {
-	#night_mode_toggle {
-		visibility: hidden;
+	@media (min-width: 767.98px) {
+		#night_mode_toggle {
+			visibility: hidden;
+		}
 	}
 	.toggle {
 		margin-left: 50px;
