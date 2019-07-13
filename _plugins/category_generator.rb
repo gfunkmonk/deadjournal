@@ -55,7 +55,7 @@ def category_generator
 	# Find any categories pages that are no longer needed, and delete them
 	delete_categories = []
 	old_categories.each do |old_category|
-		if categories.key(old_category) == NIL
+		if categories.key(old_category).nil?
 			delete_categories.push('../category/' + old_category + '.md')
 		end
 	end 
