@@ -11,7 +11,8 @@ function checkDisplayMode() {
 		}
 	setTimeout( function() {
 		$('#mode-toggle-wrapper').animate({
-		    opacity: 1
+		    opacity: 1,
+		    'padding-top': '21px'
 		}, 'slow');
 	}, 500);
 }

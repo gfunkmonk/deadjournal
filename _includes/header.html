@@ -1,7 +1,7 @@
 <header class="site-header container-fluid" role="banner">
 	<div class="wrapper">
 		<div class="row">
-			<div class="col">
+			<div class="col-11">
 			{%- assign default_paths = site.pages | map: "path" -%} {%- assign
 			page_paths = site.header_pages | default: default_paths -%}
 			<nav class="navbar navbar-pills navbar-light navbar-expand-lg nav-fill" role="navigation">
@@ -34,7 +34,12 @@
 								{%- endif -%} 
 								{%- endif -%} 
 							{%- endfor -%}
-							<li class="nav-item" id="mode-toggle-wrapper" style="opacity:0;">
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+					<div class="col-1" id="mode-toggle-wrapper" style="opacity:0;">
 								<input 
 									type="checkbox" 
 									class="form-check-input" 
@@ -44,12 +49,6 @@
 									data-offstyle="outline-secondary"
 									data-onstyle="outline-danger"
 									>
-							</li>
-						</ul>
-					</div>
-				</div>
-				</div>
-			</nav>
-		</div>
+							</div>
 	</div>
 </header>

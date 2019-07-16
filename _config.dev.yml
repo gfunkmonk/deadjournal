@@ -1,2 +1,3 @@
+# Addditional configuration to enable the site to run locally.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

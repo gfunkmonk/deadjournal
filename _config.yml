@@ -19,6 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 author: Michael James
 baseurl: "/deadjournal" # the subpath of your site, e.g. /blog
 url: "https://alephnaughtpix.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+port: 4000
 twitter_username: alephnaught
 github_username:  alephnaughtpix
 flickr_username: alephnaught

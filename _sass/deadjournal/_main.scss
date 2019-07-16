@@ -9,11 +9,12 @@
 	margin-bottom: 15px;
 }
 
-#HeaderNav {
-	@media (min-width: 767.98px) {
-		#night_mode_toggle {
-			visibility: hidden;
-		}
+.site-header {
+	.mode-toggle-wrapper {
+		padding-top: 21px;
+	}
+	#night_mode_toggle {
+		visibility: hidden;
 	}
 	.toggle {
 		margin-left: 50px;
