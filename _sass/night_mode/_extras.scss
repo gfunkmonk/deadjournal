@@ -57,6 +57,18 @@ body.night_mode {
 	.highlighter-rouge, .highlight, pre, code {
 		@extend .badge-secondary;
 		border: none;
+		.nc, .na, .kd {
+			color: lighten(teal, 50%);
+		}
+		.nt {
+			color: lighten(blue, 30%);
+		}
+		.s, .s1, .s2 {
+			color: lighten(red, 40%);
+		}
+		.nx {
+			color: lighten(yellow, 40%);
+		}
 	}
 
 }

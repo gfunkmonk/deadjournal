@@ -6,6 +6,7 @@ tags: geek jekyll javascript css technotes
 categories: Geek
 date: '2019-07-12 12:30:00'
 ---
+
 *I've [already warned you]({{"/about/"|relative_url}}) that I'm a supergeek. Now I'm going to show it...*
 
 I've used Night Mode in various web applications, and it's even supported on my MacOS desktop computer, so I thought: can I implement it in this website? Well, you might have noticed a new switch on the top right of this page, which switches Night mode on or off, and that it remembers your choice when going to another page. So, how did I do this?<!--more-->
@@ -23,7 +24,7 @@ Jekyll is able to compile [SCSS](https://sass-lang.com/) files from the `_sass` 
 
 The next partials to be imported would be the Night Mode version of Bootstrap, and my tweaks to the theme. Most of the tweaks were basically colour changes for things like the links, although there were the odd bits where the theme changed some of the formatting, so I just commented those out. One good thing about importing the Bootstrap CSS as SCSS beforehand in the compilation process was that I had access to its styling classes, and could use `@extend` in my SCSS to re-use the styles in my own tweaks. One example is me setting the colours of the "Deadjournal" heading, using the existing Bootstrap text "warning" colour class:
 
-```
+```scss
 .site-title {
     @extend .text-warning;
 }
@@ -31,7 +32,7 @@ The next partials to be imported would be the Night Mode version of Bootstrap, a
 
 When I was satisfied with the Night Mode theme, I started implementing a way to switch it on and off. I already had a good idea of how I could do this quite easily: have the Night Mode CSS dependent on the `<body>` tag of the web page having the class `night_mode`. Having brought the Bootstrap and Night Mode theme into SCSS, this was quite easy. All I had to do was put the Night mode SCSS inside `body.night_mode` eg:
 
-```
+```scss
 body.night_mode {
 
     [... existing SCSS ...]
@@ -41,7 +42,7 @@ body.night_mode {
 
 As you can see, doing it this way in SCSS is far easier than if it was being done in CSS- in CSS, you would have to prepend `body.night_mode` to every blummin' CSS selector! Also, this is why I didn't get the minimised version of the theme, as I need to do some alterations to get this to work. As I've already set SCSS minifying in the `_config.yml` anyway, the final resulting site will have minified CSS, so it doesn't matter if the source is minified or not, but it certainly makes it easier for me! If you haven't turned on SCSS minifying on your site, you can do it by putting the following in your `_config.yml` file.
 
-```
+```yml
 sass:
   style: compressed
 ```
@@ -52,7 +53,7 @@ So now the site had Night Mode styling that only kicked in when the `<body>` of 
 
 I already had a good idea I wanted to do a sliding switch, which I had implemented in a previous project. This had used a Bootstrap extension which styled a checkbox as a sliding switch. So the first I did was put a checkbox on the top navigation and give it an id `night_mode_toggle`. So it was quite easy to add to the main site Javascript:
 
-```
+```javascript
 var body = $('body');
 
 [...]
@@ -79,7 +80,7 @@ function nightModeOn() {
 
 You can see I'm using [Jquery](https://jquery.com/) here to manipulate the `body` tag, and set the event for the checkbox. Anyway, this worked, and I was able to turn the Night Mode on and off using the checkbox. Next was making sure the browser remembers this choice, and the obvious choice here is to use cookies: send the browser a cookie if in Night Mode, and check for a cookie coming back that specified Night Mode was switched on. Again, this was fairly easy. I used the [JS Cookie](https://github.com/js-cookie/js-cookie) library for this, which made it much easier to handle and check for cookies.
 
-```
+```javascript
 var mode = Cookies.get('night_mode');
 if (mode != undefined)
 if (mode == "true") {
@@ -101,7 +102,7 @@ function nightModeOn() {
 
 So now the browser was remembering Night Mode between pages, all I had to do was style the checkbox. For this I used [Bootstrap 4 Toggle](https://gitbrent.github.io/bootstrap4-toggle/), a variation on a toggle slider I had used before. Rather bizarrely this caused the most difficulties. Firstly, I found the click event was broken. This was because the toggle appeared on top of the checkbox, obscuring it, so I had to the set the click event for *that* element, which was the parent element of the checkbox. This would mean some alterations to the Javascript, which took a lot less effort than tracking down the actual problem. eg
 
-```
+```javascript
 $('#night_mode_toggle').parent().click( toggleNightMode );
 ```
 
