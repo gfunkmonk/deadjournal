@@ -1,54 +1,53 @@
 <header class="site-header container-fluid" role="banner">
 	<div class="wrapper">
 		<div class="row">
-			<div class="col-11">
-			{%- assign default_paths = site.pages | map: "path" -%} {%- assign
-			page_paths = site.header_pages | default: default_paths -%}
-			<nav class="navbar navbar-pills navbar-light navbar-expand-lg nav-fill" role="navigation">
-				<div class="container-fluid">
-					<div class="navbar-brand">
-						<a rel="author" href="{{ "/" | relative_url }}"><img src="
-							{{ "/assets/img/me_bw.jpg" | relative_url }}" class="site-title-icon d-inline-block align-top"
-							alt="Deadjournal" title="Deadjournal" /></a><a class="site-title"
-							rel="author" href="{{ "/" | relative_url }}">{{ site.title |
-							escape }}</a>
-					</div>
-					<button class="navbar-toggler" type="button" 
-					data-toggle="collapse" data-target="#HeaderNav" 
-					aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    					<span class="navbar-toggler-icon"></span>
-  					</button>
-					<div class="collapse navbar-collapse" id="HeaderNav">
-						<ul class="navbar-nav">
-							{%- for path in page_paths -%} {%- assign my_page = site.pages | where: "path", path | first -%} 
-								{%- if my_page.site_page -%}
-								{%- if my_page.title -%}
-									{%- assign active_class = "" -%}
-									{%- if my_page.nav_active !=  -%}
-										{%- if my_page.nav_active == page.nav_active -%}
-											{%- assign active_class = " active" -%}
+			<div class="col-11-lg">
+				{%- assign default_paths = site.pages | map: "path" -%} {%- assign
+				page_paths = site.header_pages | default: default_paths -%}
+				<nav class="navbar navbar-pills navbar-light navbar-expand-lg nav-fill" role="navigation">
+						<div class="navbar-brand">
+							<a rel="author" href="{{ "/" | relative_url }}"><img src="
+								{{ "/assets/img/me_bw.jpg" | relative_url }}" class="site-title-icon d-inline-block align-top"
+								alt="Deadjournal" title="Deadjournal" /></a><a class="site-title"
+								rel="author" href="{{ "/" | relative_url }}">{{ site.title |
+								escape }}</a>
+						</div>
+						<button class="navbar-toggler" type="button" 
+						data-toggle="collapse" data-target="#HeaderNav" 
+						aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	    					<span class="navbar-toggler-icon"></span>
+	  					</button>
+						<div class="collapse navbar-collapse" id="HeaderNav">
+							<ul class="navbar-nav">
+								{%- for path in page_paths -%} {%- assign my_page = site.pages | where: "path", path | first -%} 
+									{%- if my_page.site_page -%}
+									{%- if my_page.title -%}
+										{%- assign active_class = "" -%}
+										{%- if my_page.nav_active !=  -%}
+											{%- if my_page.nav_active == page.nav_active -%}
+												{%- assign active_class = " active" -%}
+											{%- endif -%}
 										{%- endif -%}
-									{%- endif -%}
-							<li class="nav-item"><a class="nav-link{{ active_class }}" 
-							href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li> 
-								{%- endif -%} 
-								{%- endif -%} 
-							{%- endfor -%}
-						</ul>
-					</div>
-				</div>
-			</nav>
+								<li class="nav-item"><a class="nav-link{{ active_class }}" 
+								href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li> 
+									{%- endif -%} 
+									{%- endif -%} 
+								{%- endfor -%}
+							</ul>
+						</div>
+				</nav>
+			</div>
+			<div class="col-1-lg" id="mode-toggle-wrapper" style="opacity:0;">
+						<input 
+							type="checkbox" 
+							class="form-check-input" 
+							id="night_mode_toggle" 
+							data-toggle="toggle" 
+							data-on="Night" data-off="Light"
+							data-offstyle="outline-secondary"
+							data-onstyle="outline-danger"
+							>
+			</div>
 		</div>
-					<div class="col-1" id="mode-toggle-wrapper" style="opacity:0;">
-								<input 
-									type="checkbox" 
-									class="form-check-input" 
-									id="night_mode_toggle" 
-									data-toggle="toggle" 
-									data-on="Night" data-off="Light"
-									data-offstyle="outline-secondary"
-									data-onstyle="outline-danger"
-									>
-							</div>
 	</div>
 </header>

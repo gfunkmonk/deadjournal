@@ -1,5 +1,5 @@
 ---
-title: We are different
+title: We are different (And Why It Matters)
 layout: post
 excerpt_separator: "<!--more-->"
 tags: lgbt pride queer personal
