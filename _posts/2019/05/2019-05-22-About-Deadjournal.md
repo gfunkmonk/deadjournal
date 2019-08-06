@@ -27,7 +27,7 @@ Furthermore, and even more personally, in 2013, Russia
  and non-traditional sexual relationships"*. 
 
 This also applied to my blog, as some of the content is unashamedly queer. In fact, it was 
-the first blog on which I was unashamedly queer and public about it on the Internet. 
+the first blog on which I was unashamedly queer and public about it on the Internet. (Not that there's anything to be ashamed about.)
 
 2006- when I first posted on LiveJournal- may be less than 20 years ago, but it was a 
 different planet. The concept of _civil partnerships_ for people like me, and my future 

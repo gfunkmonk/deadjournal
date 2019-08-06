@@ -42,6 +42,7 @@ You have two options:
    * Run a full build.
    * Transfer all the files from the `_site` folder to your website host via FTP.
 2. Host your published site on [GitHub pages](https://pages.github.com/). 
-   * Set up an account at GitHub. (Which you probably already have, if yyou're reading this!)
+   * Set up an account at GitHub. (Which you probably already have, if you're reading this!)
    * Set up your own Git repository, and copy the files from this repo into it.
-   * Now all you need to do each time you want to publish, is push the changes to your repository, and GitHub will automatically publish your website to GitHub pages! You can find out more about setting up GitHub pages [here](https://pages.github.com/).
+   * Now all you need to do, each time you want to publish, is push the changes to your repository, and GitHub will automatically publish your website to GitHub pages! You can find out more about setting up GitHub pages [here](https://pages.github.com/).
+
