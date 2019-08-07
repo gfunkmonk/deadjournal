@@ -51,9 +51,8 @@ exclude:
    - vendor/gems/
    - vendor/ruby/
    - src/
+   - scripts/
    - README.md
-   - build.ps1
-   - runserver_dev.ps1
 
 defaults:
   - scope:
