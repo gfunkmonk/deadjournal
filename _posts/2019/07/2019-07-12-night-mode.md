@@ -51,7 +51,7 @@ There is one thing to watch out for: if the theme SCSS contains selectors for `b
 
 So now the site had Night Mode styling that only kicked in when the `<body>` of the web page had the class `night_mode`. (I was able to test this on Chrome browser using the development tools, by going into the *Elements* tab, and adding `class="night_mode"`, and checking the Night Mode was kicking in, then removing the class, and checking the default styling returned.) The next step was to add functionality to web page to switch the Night Mode on and off.
 
-I already had a good idea I wanted to do a sliding switch, which I had implemented in a previous project. This had used a Bootstrap extension which styled a checkbox as a sliding switch. So the first I did was put a checkbox on the top navigation and give it an id `night_mode_toggle`. So it was quite easy to add to the main site Javascript:
+I already had a good idea I wanted to do a sliding switch, which I had implemented in a previous project. This had used a Bootstrap extension which styled a checkbox as a sliding switch. So the first thing I did was put a checkbox on the top navigation and give it an id `night_mode_toggle`. So it was quite easy to add to the main site Javascript:
 
 ```javascript
 var body = $('body');
