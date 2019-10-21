@@ -57,7 +57,7 @@ body.night_mode {
 	.highlighter-rouge, .highlight, pre, code {
 		@extend .badge-secondary;
 		border: none;
-		.nc, .na, .kd {
+		.nc, .na, .kd, .nn, .mi {
 			color: lighten(teal, 50%);
 		}
 		.nt, .nb {
@@ -66,8 +66,11 @@ body.night_mode {
 		.s, .s1, .s2 {
 			color: lighten(red, 40%);
 		}
-		.nx {
+		.nx, .cp {
 			color: lighten(yellow, 40%);
+		}
+		.c {
+			color: lighten(green, 40%);
 		}
 	}
 
