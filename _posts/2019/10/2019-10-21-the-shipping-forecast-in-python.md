@@ -7,7 +7,7 @@ categories: Geek
 ---
 
 No, that's not a cute *look at me!* headline, I really am going to talk about your actual [Shipping Forecast](https://en.wikipedia.org/wiki/Shipping_Forecast) in [Python](https://www.python.org/). I told you I was super-geeky...
-
+<!--more-->
 Now, I listen to a number of podcasts, all spoken word ones, so it's a bit like I have my own custom made [Radio 4](https://en.wikipedia.org/wiki/BBC_Radio_4). So why not round it off with one of Radio 4's most famous and quirky features, the [Shipping Forecast](https://en.wikipedia.org/wiki/Shipping_Forecast)? 
 
 Well, that's a problem, as you can't get the Shipping Forecast as a podcast. You *can* get it on [iPlayer](https://www.bbc.co.uk/programmes/b006qfvv/episodes/player), but it tends to be bookended by adverts for other Radio 4 programmes. Even more crucially, due to copyright issues, the replay of the nightime broadcast misses out the beautiful *"Sailing By"* by Ronald Binge, which is used to fill in time before the actual forecast, which has to start on the dot at 2348h.
