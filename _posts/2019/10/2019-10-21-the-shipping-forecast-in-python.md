@@ -2,12 +2,12 @@
 title: The Shipping Forecast in Python
 layout: post
 excerpt_separator: "<!--more-->"
-tags: python shippingforecast code
+tags: python shippingforecast code speech radio geek
 categories: Geek
 ---
 
-No, that's not a cute *look at me!* headline, I really am going to talk about your actual [Shipping Forecast](https://en.wikipedia.org/wiki/Shipping_Forecast) in [Python](https://www.python.org/). I told you I was super-geeky...
-<!--more-->
+No, that's not a cute *look at me!* headline, I really am going to talk about your actual [Shipping Forecast](https://en.wikipedia.org/wiki/Shipping_Forecast) in [Python](https://www.python.org/). I told you I was super-geeky<!--more-->...
+
 Now, I listen to a number of podcasts, all spoken word ones, so it's a bit like I have my own custom made [Radio 4](https://en.wikipedia.org/wiki/BBC_Radio_4). So why not round it off with one of Radio 4's most famous and quirky features, the [Shipping Forecast](https://en.wikipedia.org/wiki/Shipping_Forecast)? 
 
 Well, that's a problem, as you can't get the Shipping Forecast as a podcast. You *can* get it on [iPlayer](https://www.bbc.co.uk/programmes/b006qfvv/episodes/player), but it tends to be bookended by adverts for other Radio 4 programmes. Even more crucially, due to copyright issues, the replay of the nightime broadcast misses out the beautiful *"Sailing By"* by Ronald Binge, which is used to fill in time before the actual forecast, which has to start on the dot at 2348h.
@@ -66,6 +66,7 @@ Slight or moderate, becoming rough, then occasionally very rough later in north.
 <sub/>
 </area>
 </area-forecast>
+<!-- ... And so on ... ->
 ```
 
 That might look very different to what your hear on Radio 4, but as [explained here](https://en.wikipedia.org/wiki/Shipping_Forecast#Broadcast_format), the broadcast format of the Shipping Forecast is tightly regulated, so it's actually very easy to parse the RSS into the broadcast script.
@@ -227,10 +228,10 @@ engine = gTTS(text=output, lang='en-UK', slow=False)
 engine.save(source_mp3)
 ```
 
-So now we have the Shipping Forecast saved as a spoken word MP3 file. You might notice that the voice, although very natural sounding can have a bit of an [uncanny valley](https://en.wikipedia.org/wiki/Uncanny_valley) effect. For example, I find the gale warnings sound a bit sarcastic, any mentions of gale force 8 sound a bit like Chris Morris, the use of the word "rain" sounds a bit strange, and for some reason Google appears to find *"Fair Isle"* a bit chuckleworthy! More about the voice later...
+So now we have the Shipping Forecast saved as a spoken word MP3 file. You might notice that the voice, although very natural sounding can have a bit of an [uncanny valley](https://en.wikipedia.org/wiki/Uncanny_valley) effect. For example, I find the gale warnings sound a bit sarcastic, any mentions of gale force 8 sound a bit like Chris Morris on *The Day Today*, the use of the word "rain" sounds a bit strange, and for some reason Google appears to find *"Fair Isle"* a bit chuckleworthy! More about the voice later...
 
 ### Adding the the theme tune
-But hat would the Shipping Forecast be without having Ronald Binge's *Sailing By* to start it off? What I wanted was to have an MP3 that started off with *Sailing By*, and then had the Forecast begin just as the song ended. After a bit of searching around, I settled on [PyDub](https://github.com/jiaaro/pydub) to do the deed.
+But what would the Shipping Forecast be without having Ronald Binge's *Sailing By* to start it off? What I wanted was to have an MP3 that started off with *Sailing By*, and then had the Forecast begin just as the song ended. After a bit of searching around, I settled on [PyDub](https://github.com/jiaaro/pydub) to do the deed.
 
 ```python
 from pydub import AudioSegment
@@ -270,7 +271,7 @@ programme.export(combined_file, format="mp3")
 
 ### But- that voice!
 
-Now I had Python code that could generate the Shipping Forecast complete with theme music, was there anything I could about the voice? After experimenting around with the results in Audacity, I found that it sounded much better pitch-shifted down 4 semitones, which gave a more plummy and camp tone to it. Now all I had to was work out how to do the pitch-shifting in Python. The bad news was that PyDub had a number of inbuilt effects, but pitch-shifting was not one of them. I would have to look elsewhere.
+Now I had Python code that could generate the Shipping Forecast complete with theme music, was there anything I could about the voice? After experimenting around with the results in [Audacity](https://www.audacityteam.org/), I found that it sounded much better pitch-shifted down 4 semitones, which gave a more plummy and camp tone to it. Now all I had to was work out how to do the pitch-shifting in Python. The bad news was that PyDub had a number of inbuilt effects, but pitch-shifting was not one of them. I would have to look elsewhere.
 
 After a lot of faffing about trying to look for a solution, (Why do so many people think pitch-shifting is the same as speeding a sample up or down?) I settled on using [PyRubberband](https://pyrubberband.readthedocs.io/), which also uses [Numpy](https://numpy.org/) and [PySoundfile](https://pysoundfile.readthedocs.io/). 
 

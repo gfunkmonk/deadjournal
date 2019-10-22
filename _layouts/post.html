@@ -6,11 +6,14 @@ layout: default
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     {% if post %}
-    	{% assign categories = post.categories %}
-  	{% else %}
+    	{% if post.categories %}
+    		{% assign categories = post.categories %}
+    	{% endif %}
+    {% endif %}
+  	{% unless categories %}
     	{% assign categories = page.categories %}
-  	{% endif %}
-    {%- if categories.length > 0 -%}
+  	{% endunless %}
+    {%- if categories.size > 0 -%}
     <h5 class="">Posted in 
 	{% for category in categories %}
   		<a href="{{site.baseurl}}/category/{{category|slugify}}.html">{{category}}</a>
@@ -51,7 +54,7 @@ layout: default
   </div>
   	<div class="row tags_for_post">
 	  	<div class="col">
-	  		{% assign sorted_tags = page.tags | sort: 0 %}
+	  		{% assign sorted_tags = page.tags|sort %}
 	  		Tags: {% for tag in sorted_tags %}
 	    	{% capture tag_name %}{{ tag }}{% endcapture %}
 	    	{% capture tag_url %}/tag/{{ tag_name | slugify }}.html{% endcapture %}
