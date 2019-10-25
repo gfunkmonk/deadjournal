@@ -158,7 +158,7 @@ So all we need to do now is for a XSL for loop on all the `area-forecast` tags.
 </xsl:for-each>
 ```
 
-And then, to complete the translation, I added a sign-off. This is not strictly part of the broadcast version, but most presenters do it, and it's better then suddenly stopping dead.
+And then, to complete the translation, I added a sign-off. This is not strictly part of the broadcast version, but most presenters do it, and it's better than suddenly stopping dead.
 
 ```xml
 And that's the Shipping Forecast.
@@ -210,7 +210,7 @@ Running this script will create a file called `script.txt`, which will contain s
 
 Now that we have a human readable version, how about getting a voice to read it? I investiagted the options for text to speech in Python through [this article](https://pythonprogramminglanguage.com/text-to-speech/), and tried out a few things. Firstly, I tried [Pyttsx3](https://github.com/nateshmbhat/pyttsx3), but I found that a bit robotic, and as it depends on the system speech engine, it can be variable across different systems. [IBM Watson](https://text-to-speech-demo.ng.bluemix.net/) has a more natural sound, but it requires a lot of faffing about to get going, and has a limitation on the number of requests, after which you have to pay IBM. In the end I settled on Google Text to Speech through the [gTTS](https://github.com/pndurette/gTTS) library. This only has once choice of voice, but is very natural sounding.
 
-Getting the text saved as speecch turned out to be very simple.
+Getting the text saved as speech turned out to be very simple.
 
 ```python
 from gtts import gTTS 
